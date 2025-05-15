@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+   
+    border:3px solid blue;
+    width:40%;
+    margin: auto auto;
+}
+
+h2 {
+    color: #f26b6b;
+    margin-bottom: 20px;
+}
+
+.box {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+   
+    margin: 15px auto;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.box-header {
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-header .discount {
+    color: #fff;
+    background-color: #f26b6b;
+    border-radius: 5px;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.box-content {
+    display:none;
+    margin-top:10px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.box-content select{
+    padding-left: 20px;
+    padding-right:20px ;
+    text-align: left;
+
+}
+.most-popular {
+    border-color: #f26b6b;
+    position: relative;
+}
+
+.most-popular .placement {
+    position: absolute;
+    top: -65px;
+    right: -250px;
+    background-color: #f26b6b;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+select {
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+.Delivery{
+    display: flex;
+    justify-content: space-around;
+}
+
+.addtocart a{
+    display: inline-block;
+    width:80%;
+    text-decoration: none;
+    color: white;
+    background-color: #f26b6b;
+    margin:10px;
+    padding:5px;
+    
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Boxes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>YAY! It’s BOGO</h2>
+
+    <!-- Box 1 -->
+    <div class="box" id="box1">
+        <div class="box-header" onclick="toggleBox('box1')">
+            <div class="box-header-content">
+                <input type="radio" name="unit" />
+                1 Unit <span class="discount">10% Off</span>
+                <p>Standard Price</p>
+            </div>
+            <div class="box-header-content">
+                <h1>$10.00 USD</h1>
+                <p style="text-decoration: line-through;color:gray">$24.00 USD</p>
+            </div>
+        </div>
+        <div class="box-content">
+            <table>
+                <tr>
+                    <th>Size</th>
+                    <th>Color</th>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Red</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="box most-popular" id="box2">
+        <div class="box-header" onclick="toggleBox('box2')">
+            <div class="box-header-content">
+                <input type="radio" name="unit" />
+                2 Units <span class="discount">20% Off</span>
+                <div class="most-popular">
+                    <span class="placement">
+                        MOST POPULAR
+                    </span>
+                </div>
+            </div>
+            <div class="box-header-content">
+                <h1>$18.00 USD</h1>
+                <p style="text-decoration: line-through;color:gray">$36.00 USD</p>
+            </div>
+        </div>
+        <div class="box-content">
+            <table>
+                <tr>
+                    <th>Size</th>
+                    <th>Color</th>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Red</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Red</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="box" id="box3">
+        <div class="box-header" onclick="toggleBox('box3')">
+            <div class="box-header-content">
+                <input type="radio" name="unit" />
+                3 Units <span class="discount">30% Off</span>
+            </div>
+            <div class="box-header-content">
+                <h1>$24.00 USD</h1>
+                <p style="text-decoration: line-through;color:gray">$48.00 USD</p>
+            </div>
+        </div>
+        <div class="box-content">
+            <table>
+                <tr>
+                    <th>Size</th>
+                    <th>Color</th>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Red</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Red</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Red</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="Delivery">
+        <div>
+            <p style="color:#f26b6b">Free Delivery</p>
+        </div>
+        <div>
+            <p>Total : 18.00 USD</p>
+        </div>
+    </div>
+    <div class="addtocart">
+        <a href="#">+ Add to Cart</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
